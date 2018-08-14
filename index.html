@@ -18,28 +18,28 @@
           <li class="menu__item">Контакты</li>
         </ul>
         <ul class="menu">
-          <li class="menu__item menu__item_icon_login">Вход</li>
+          <li class="menu__item menu__item--icon--login">Вход</li>
         </ul>
       </nav>
     </header>
 
     <main class="main-content">
-      <h1 class="main-content__title main-content__title_hidden">Барбершоп Бородинский</h1>
+      <h1 class="main-content__title visually-hidden">Барбершоп Бородинский</h1>
 
       <section class="features">
-        <h2 class="features__title features__title_hidden">Преимущества</h2>
+        <h2 class="section__title visually-hidden">Преимущества</h2>
         <ul class="features-list">
-          <li class="features-item">
-            <h3 class="features-item__title">Быстро</h3>
-            <p class="features-item__description">Мы делаем свою работу быстро! Два часа пролетят незаметно и вы - счастливый обладатель стильной стрижки-минутки!</p>
+          <li class="feature">
+            <h3 class="feature__title">Быстро</h3>
+            <p class="feature__description">Мы делаем свою работу быстро! Два часа пролетят незаметно и вы - счастливый обладатель стильной стрижки-минутки!</p>
           </li>
-          <li class="features-item">
-            <h3 class="features-item__title">Круто</h3>
-            <p class="features-item__description">Забудьте, как вы стриглись раньше. Мы сделаем из вас звезду футбола или кино! Во всяком случае внешне.</p>
+          <li class="feature">
+            <h3 class="feature__title">Круто</h3>
+            <p class="feature__description">Забудьте, как вы стриглись раньше. Мы сделаем из вас звезду футбола или кино! Во всяком случае внешне.</p>
           </li>
-          <li class="features-item">
-            <h3 class="features-item__title">Дорого</h3>
-            <p class="features-item__description">Наши мастера - профессионалы своего дела и не могут стоить дешево. К тому же, разве цена не дает определенный статус?</p>
+          <li class="feature">
+            <h3 class="feature__title">Дорого</h3>
+            <p class="feature__description">Наши мастера - профессионалы своего дела и не могут стоить дешево. К тому же, разве цена не дает определенный статус?</p>
           </li>
         </ul>
       </section>
@@ -47,20 +47,20 @@
       <section class="news">
         <h2 class="news__title">Новости</h2>
         <ul class="news-list">
-          <li clas="news-item">
-            <p class="news-item__text">
+          <li clas="news">
+            <p class="news__text">
               Нам наконец завезли Ягермайстер! Теперь вы можете пропустить стаканчик во время стрижки
             </p>
-            <time class="news-item__public-date" datetime="2018-01-11">11 января</time>
+            <time class="news__public-date" datetime="2018-01-11">11 января</time>
           </li>
-          <li clas="news-item">
-            <p class="news-item__text">
+          <li clas="news">
+            <p class="news__text">
               В нашей команде пополнение, Борис «Бритва» Стригунец, обладатель множества титулов и наград пополнил наши стройные ряды
             </p>
-            <time class="news-item__public-date" datetime="2018-01-18">18 января</time>
+            <time class="news__public-date" datetime="2018-01-18">18 января</time>
           </li>
         </ul>
-        <a class="news__all-news-link" href="#">Все новости</a>
+        <a class="button news__all-news-link" href="#">Все новости</a>
       </section>
 
       <section class="photogallery">
@@ -70,8 +70,8 @@
               <img class="photogallery__image" src="img/studio.jpg" width="286" height="164" alt="Интерьер">
             </a>
           </div>
-          <button class="photogallery__button photogallery__button_back" type="button">Назад</button>
-          <button class="photogallery__button photogallery__button_next" type="button">Вперед</button>
+          <button class="button photogallery__button photogallery__button--back" type="button">Назад</button>
+          <button class="button photogallery__button photogallery__button--next" type="button">Вперед</button>
       </section>
 
       <section class="contacts">
@@ -86,8 +86,8 @@
           пн—пт: с 10:00 до 22:00<br>
           сб—вс: с 10:00 до 19:00
         </p>
-        <a class="contacts__button" href="#">Как проехать</a>
-        <a class="contacts__button" href="#">Обратная связь</a>
+        <a class="button contacts__button" href="#">Как проехать</a>
+        <a class="button contacts__button" href="#">Обратная связь</a>
       </section>
 
       <section class="appointment">
@@ -107,29 +107,29 @@
 
       <div class="footer-social">
         <b>Давайте дружить</b>
-        <ul class="social-list">
-          <li class="social-item"><a class="social-button social-button_type_vk" href="#">Вконтакте</a></li>
-          <li class="social-item"><a class="social-button social-button_type_fb" href="#">Фейсбук</a></li>
-          <li class="social-item"><a class="social-button social-button_type_insta" href="#">Инстаграм</a></li>
+        <ul class="socials-list">
+          <li class="social-item"><a class="button social-button social-button--type--vk" href="#">Вконтакте</a></li>
+          <li class="social-item"><a class="button social-button social-button--type--fb" href="#">Фейсбук</a></li>
+          <li class="social-item"><a class="button social-button social-button--type--insta" href="#">Инстаграм</a></li>
         </ul>
       </div>
 
       <p class="footer-copyright">
         <b>Разработано: </b>
-        <a class="copyright-button" href="#">HTML Academy</a>
+        <a class="button copyright-button" href="https://htmlacademy.ru/intensive/htmlcss">HTML Academy</a>
       </p>
     </footer>
 
     <section class="modal-login">
-      <h2 class="modal-login__title">Личный кабинет</h2>
+      <h2 class="modal__title">Личный кабинет</h2>
       <p class="modal-login__text">Введите свой логин и пароль.</p>
       <form class="login-form"></form>
-      <buttonc lass="modal-login__close">x</button>
+      <buttonc lass="modal__close">x</button>
     </section>
 
     <section class="modal-map">
-      <h2 class="modal-map__title modal-map__title_hidden">Как до нас добраться</h2>
-      <span class="modal-map__close">x</span>
+      <h2 class="modal__title visually-hidden">Как до нас добраться</h2>
+      <span class="modal__close">x</span>
     </section>
   </body>
 </html>
